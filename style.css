@@ -1,0 +1,195 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #C5E3FF;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-brand, .nav-link {
+    color: #FF66C4 !important;
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #FFD4EA !important;
+  }
+  
+  /* Header (Seção de Introdução) */
+  #intro {
+    background-color: #C5E3FF;
+    padding: 60px 0;
+    text-align: center;
+  }
+  #intro h1 {
+    font-size: 2.5rem;
+    color: #FF66C4;
+    font-weight: bold;
+  }
+  #intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  #intro .btn-primary {
+    background-color: #FF66C4;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  #intro .btn-primary:hover {
+    background-color: #FFD4EA;
+  }
+  
+  /* Seção de Serviços */
+  #servicos {
+    padding: 60px 0;
+    background-color: #FFD4EA;
+  }
+  #servicos h2 {
+    color: #FF66C4;
+    font-weight: bold;
+  }
+  #servicos p {
+    font-size: 1.1rem;
+  }
+  #servicos .col-md-4 {
+    margin-bottom: 2rem;
+  }
+  #servicos img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  #servicos img:hover {
+    transform: scale(1.05);
+  }
+  #servicos h4 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #FF66C4;
+  }
+  
+  /* Botões */
+  .btn-primary, .btn-secondary {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .btn-primary {
+    background-color: #FF66C4;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #FFD4EA;
+  }
+  .btn-secondary {
+    background-color: #C5E3FF;
+    border: none;
+    color: #FF66C4;
+  }
+  .btn-secondary:hover {
+    background-color: #FFD4EA;
+    color: #333;
+  }
+  
+  /* Seção de Depoimentos */
+  #depoimentos {
+    padding: 60px 0;
+    background-color: #C5E3FF;
+  }
+  #depoimentos h2 {
+    color: #FF66C4;
+  }
+  blockquote {
+    background: #f8f9fa;
+    border-left: 5px solid #FF66C4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Blog */
+  #blog {
+    padding: 60px 0;
+    background-color: #FFD4EA;
+  }
+  #blog h2 {
+    color: #FF66C4;
+  }
+  #blog img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  #blog img:hover {
+    transform: scale(1.05);
+  }
+  #blog h4 {
+    color: #FF66C4;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  footer p {
+    margin: 0;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .carousel-item {
+      height: 50vh;
+    }
+    #intro h1 {
+      font-size: 2rem;
+    }
+    #intro p, #servicos p, #blog p {
+      font-size: 1rem;
+    }
+  }
+  
+
+  .carousel-image {
+    width: 100vw; /* Garante que a imagem ultrapasse a largura da tela */
+    max-height: 1000px; /* Define uma altura máxima para a imagem */
+    object-fit: cover; /* Preenche o contêiner, cortando as bordas se necessário */
+    object-position: 10% 50%; /* Move a imagem ligeiramente para baixo */
+
+  }  
+
+  @media (max-width: 576px) {
+    .form-control {
+        font-size: 14px; /* Tamanho da fonte em dispositivos menores */
+    }
+    
+    .btn {
+        width: 100%; /* Botão ocupa toda a largura */
+    }
+}
+form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.bairro-lista li {
+  padding: 5px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+.bairro-lista {
+  display: none;
+  transition: all 0.3s ease-in-out;
+}

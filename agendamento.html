@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agendamento - Elvet Pet</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Elvet Pet</a>
+  </nav>
+
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 style="color: #FF66C4;">Agendamento de Consultas</h2>
+      <p>Agende uma consulta com facilidade e rapidez.</p>
+      <form class="mt-4">
+        <div class="form-group">
+          <label for="nome">Nome Completo</label>
+          <input type="text" class="form-control" id="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone</label>
+          <input type="tel" class="form-control" id="telefone" required>
+        </div>
+        <div class="form-group">
+          <label for="data">Data Preferida</label>
+          <input type="date" class="form-control" id="data">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-3 bg-dark text-light text-center">
+    <p>&copy; <span id="year"></span> Elvet Pet. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

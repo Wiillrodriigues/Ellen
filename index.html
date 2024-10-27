@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elvet - Atendimento Veterinário a Domicílio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #C5E3FF;">
+    <a class="navbar-brand" href="#">Elvet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre-Nós</a></li>
+        <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="depoimentos.html">Depoimentos</a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="agendamento.html">Agendamento</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+ <!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Elen.png" class="d-block w-100 carousel-image" alt="Consultas a Domicílio">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Consultas Veterinárias Domiciliares</h5>
+        <p>Cuidado completo no conforto do seu lar, para que seu pet se sinta seguro e à vontade.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/carousel 2.png" class="d-block w-100 carousel-image" alt="Vacinação">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Vacinação a Domicílio</h5>
+        <p>Garantindo proteção contra doenças com a conveniência e segurança de um atendimento em casa.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/carousel 3.png" class="d-block w-100 carousel-image" alt="Emergências">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Atendimento de Emergência</h5>
+        <p>Pronto atendimento para casos críticos, com eficiência e cuidado redobrado.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+
+
+
+
+
+
+
+ 
+ <!-- Sobre Nós -->
+<section id="sobre" class="py-5 text-center" style="background-color: #f3f4f6;">
+  <div class="container">
+    <h2 class="mb-5" style="color: #FF66C4; font-weight: bold;">Sobre Nós</h2>
+    <div class="row align-items-center">
+      <!-- Imagem da Veterinária -->
+      <div class="col-md-6">
+        <div class="image-container mb-3">
+          <img src="img/Ellen.png" class="img-fluid rounded shadow-lg" alt="Veterinária Responsável" style="border: 4px solid #C5E3FF; border-radius: 20px;">
+        </div>
+      </div>
+      <!-- Texto de Apresentação -->
+      <div class="col-md-6 text-md-left text-center">
+        <p style="font-size: 1.2em; color: #333;">
+          <strong>Com anos de experiência e paixão pelos animais</strong>, a Elvet surgiu para oferecer um atendimento veterinário <strong>humanizado e personalizado</strong> na casa de cada cliente.
+        </p>
+        <p style="font-size: 1.1em; color: #555;">
+          Nossa equipe é formada por profissionais dedicados ao <span style="color: #FF66C4; font-weight: bold;">bem-estar dos pets</span>, garantindo cuidado, respeito e amor em cada consulta.
+        </p>
+        <p style="font-size: 1.1em; color: #555;">
+          Buscamos sempre inovar, trazendo praticidade para os tutores e conforto para os pets, especialmente para aqueles que se sentem mais seguros em casa. Nosso compromisso é com a <span style="color: #FF66C4; font-weight: bold;">saúde e qualidade de vida</span> dos seus animais.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Locais de Atendimento -->
+<section id="locais" class="py-5 text-center" style="background-color: #f7f7f7;">
+  <div class="container">
+    <h2 class="mb-4" style="color: #FF66C4; font-weight: bold;">Locais de Atendimento</h2>
+    <p class="lead mb-5" style="color: #333;">
+      Atendemos diversas regiões para proporcionar um cuidado próximo e eficaz. Confira as áreas onde oferecemos atendimento a domicílio:
+    </p>
+    <div class="row">
+      <!-- Centro e Bairros Próximos -->
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow-sm rounded" style="background-color: #C5E3FF;">
+          <i class="fas fa-map-marker-alt fa-2x mb-3" style="color: #FF66C4;"></i>
+          <h5 onclick="toggleBairros('centro')" style="cursor: pointer; color: #FF66C4;">Centro e Bairros Próximos</h5>
+          <ul id="centro" class="list-unstyled bairro-lista" style="display: none;">
+            <li><i class="fas fa-angle-right"></i> República</li>
+            <li><i class="fas fa-angle-right"></i> Bela Vista</li>
+            <li><i class="fas fa-angle-right"></i> Liberdade</li>
+            <li><i class="fas fa-angle-right"></i> Consolação</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Zona Sul -->
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow-sm rounded" style="background-color: #C5E3FF;">
+          <i class="fas fa-map-marker-alt fa-2x mb-3" style="color: #FF66C4;"></i>
+          <h5 onclick="toggleBairros('zona-sul')" style="cursor: pointer; color: #FF66C4;">Zona Sul</h5>
+          <ul id="zona-sul" class="list-unstyled bairro-lista" style="display: none;">
+            <li><i class="fas fa-angle-right"></i> Vila Mariana</li>
+            <li><i class="fas fa-angle-right"></i> Moema</li>
+            <li><i class="fas fa-angle-right"></i> Ibirapuera</li>
+            <li><i class="fas fa-angle-right"></i> Saúde</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Zona Leste -->
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow-sm rounded" style="background-color: #C5E3FF;">
+          <i class="fas fa-map-marker-alt fa-2x mb-3" style="color: #FF66C4;"></i>
+          <h5 onclick="toggleBairros('zona-leste')" style="cursor: pointer; color: #FF66C4;">Zona Leste</h5>
+          <ul id="zona-leste" class="list-unstyled bairro-lista" style="display: none;">
+            <li><i class="fas fa-angle-right"></i> Tatuapé</li>
+            <li><i class="fas fa-angle-right"></i> Vila Formosa</li>
+            <li><i class="fas fa-angle-right"></i> Itaquera</li>
+            <li><i class="fas fa-angle-right"></i> Penha</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Zona Oeste -->
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow-sm rounded" style="background-color: #C5E3FF;">
+          <i class="fas fa-map-marker-alt fa-2x mb-3" style="color: #FF66C4;"></i>
+          <h5 onclick="toggleBairros('zona-oeste')" style="cursor: pointer; color: #FF66C4;">Zona Oeste</h5>
+          <ul id="zona-oeste" class="list-unstyled bairro-lista" style="display: none;">
+            <li><i class="fas fa-angle-right"></i> Pinheiros</li>
+            <li><i class="fas fa-angle-right"></i> Perdizes</li>
+            <li><i class="fas fa-angle-right"></i> Lapa</li>
+            <li><i class="fas fa-angle-right"></i> Vila Madalena</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Zona Norte -->
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow-sm rounded" style="background-color: #C5E3FF;">
+          <i class="fas fa-map-marker-alt fa-2x mb-3" style="color: #FF66C4;"></i>
+          <h5 onclick="toggleBairros('zona-norte')" style="cursor: pointer; color: #FF66C4;">Zona Norte</h5>
+          <ul id="zona-norte" class="list-unstyled bairro-lista" style="display: none;">
+            <li><i class="fas fa-angle-right"></i> Santana</li>
+            <li><i class="fas fa-angle-right"></i> Casa Verde</li>
+            <li><i class="fas fa-angle-right"></i> Tucuruvi</li>
+            <li><i class="fas fa-angle-right"></i> Vila Maria</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Cotia e Região -->
+      <div class="col-md-4 mb-3">
+        <div class="p-4 shadow-sm rounded" style="background-color: #C5E3FF;">
+          <i class="fas fa-map-marker-alt fa-2x mb-3" style="color: #FF66C4;"></i>
+          <h5 onclick="toggleBairros('cotia')" style="cursor: pointer; color: #FF66C4;">Cotia e Região</h5>
+          <ul id="cotia" class="list-unstyled bairro-lista" style="display: none;">
+            <li><i class="fas fa-angle-right"></i> Cotia</li>
+            <li><i class="fas fa-angle-right"></i> Granja Viana</li>
+            <li><i class="fas fa-angle-right"></i> Caucaia do Alto</li>
+            <li><i class="fas fa-angle-right"></i> Itapevi</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="mt-4" style="color: #333;">
+      Para saber se atendemos sua região, entre em <a href="#contato" style="color: #FF66C4; font-weight: bold; text-decoration: none;">contato conosco</a>!
+    </p>
+  </div>
+</section>
+
+<!-- JavaScript para mostrar/ocultar bairros com animação -->
+
+<script>
+  function toggleBairros(id) {
+    const lista = document.getElementById(id);
+    if (lista.style.display === "none" || lista.style.display === "") {
+      lista.style.display = "block";
+    } else {
+      lista.style.display = "none";
+    }
+  }
+</script>
+
+
+
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Serviços Veterinários a Domicílio</h2>
+      <p>Oferecemos uma gama completa de serviços, com foco no bem-estar e na saúde do seu pet.</p>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="img/consulta-dog.webp" class="img-fluid rounded mb-3" alt="Consulta Veterinária">
+          <h4>Consultas Veterinárias</h4>
+          <p>Realizamos consultas completas com avaliações de saúde, diagnóstico de doenças, orientações sobre alimentação, rotina e prevenção de doenças.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="img/aplicando-vacina.webp" class="img-fluid rounded mb-3" alt="Vacinação">
+          <h4>Vacinação</h4>
+          <p>Aplicamos todas as vacinas necessárias para a saúde do seu pet, protegendo-o contra doenças graves e garantindo tranquilidade para sua família.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="img/exames-laboratorias.webp" class="img-fluid rounded mb-3" alt="Exames Laboratoriais">
+          <h4>Exames Laboratoriais</h4>
+          <p>Oferecemos exames de sangue, fezes, urina, entre outros, para monitoramento e diagnóstico completo da saúde do seu pet.</p>
+        </div>
+      </div>
+      <!-- <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="img/atendimento-emergencia.webp" class="img-fluid rounded mb-3" alt="Emergências">
+          <h4>Atendimento de Emergências</h4>
+          <p>Para situações críticas e emergenciais, nosso atendimento rápido e especializado visa estabilizar o pet e direcionar os cuidados imediatos.</p>
+        </div> -->
+        <!-- <div class="col-md-4">
+          <img src="img/atendimento-preventivo.webp" class="img-fluid rounded mb-3" alt="Cuidados Preventivos">
+          <h4>Cuidados Preventivos</h4>
+          <p>Orientação em cuidados preventivos como controle de parasitas, dicas de saúde e check-ups regulares para garantir uma vida saudável ao seu pet.</p>
+        </div> -->
+        <!-- <div class="col-md-4">
+          <img src="img/castracao.webp" class="img-fluid rounded mb-3" alt="Castração">
+          <h4>Castração</h4>
+          <p>Realizamos a castração de forma segura e com toda a orientação necessária sobre os benefícios desse procedimento para o bem-estar do seu animal.</p>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+<!-- Agendamento -->
+<section id="agendamento" class="py-5 text-center" style="background-color: #C5E3FF;">
+  <div class="container">
+    <h2 class="mb-4" style="color: #FF66C4; font-weight: bold;">Agende sua Consulta</h2>
+    <p class="mb-4" style="font-size: 1.2em; color: #333;">
+      Programe o atendimento veterinário de forma fácil e rápida.
+    </p>
+    <a href="#agendamento" class="btn btn-lg mt-3" style="background-color: #FF66C4; color: #fff; padding: 12px 30px; border-radius: 30px; font-weight: bold;">
+      Agendar Consulta
+    </a>
+    <p class="mt-3" style="font-size: 0.9em; color: #555;">Clique no botão para selecionar a melhor data e horário.</p>
+  </div>
+</section>
+
+
+  <!-- Blog -->
+  <section id="blog" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2>Blog - Dicas de Saúde Animal</h2>
+      <p>Cuide melhor do seu pet com nossas dicas e informações exclusivas.</p>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <img src="img/alimentos.webp" class="img-fluid rounded mb-3" alt="Dica de Saúde">
+          <h4>Alimentação Saudável</h4>
+          <p>Descubra quais alimentos são melhores para a dieta do seu pet e os cuidados ao escolher a ração ideal.</p>
+          <a href="blog.html" class="btn btn-secondary mt-3">Leia Mais</a>
+        </div>
+        <div class="col-md-4">
+          <img src="img/dog-agua.webp" class="img-fluid rounded mb-3" alt="Cuidados no Verão">
+          <h4>Cuidados no Verão</h4>
+          <p>Saiba como proteger seu pet do calor e mantê-lo hidratado e confortável nas épocas mais quentes.</p>
+          <a href="blog.html" class="btn btn-secondary mt-3">Leia Mais</a>
+        </div>
+        <div class="col-md-4">
+          <img src="img/dog-atividade.webp" class="img-fluid rounded mb-3" alt="Exercícios e Brincadeiras">
+          <h4>Exercícios e Brincadeiras</h4>
+          <p>Veja ideias de atividades e exercícios para manter seu pet ativo, saudável e feliz.</p>
+          <a href="blog.html" class="btn btn-secondary mt-3">Leia Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Seção de Redes Sociais e Formulário de Contato -->
+<section class="py-5 bg-light text-center">
+  <h2 class="mb-4">Conecte-se Conosco</h2>
+  <div class="my-4">
+      <a href="https://www.facebook.com" target="_blank" class="mx-2">
+          <i class="fab fa-facebook-f fa-3x text-primary"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="mx-2">
+          <i class="fab fa-instagram fa-3x text-danger"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank" class="mx-2">
+          <i class="fab fa-twitter fa-3x text-info"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" class="mx-2">
+          <i class="fab fa-linkedin-in fa-3x text-secondary"></i>
+      </a>
+  </div>
+
+  <h3 class="mt-5 mb-4">Entre em Contato</h3>
+  <form id="contactForm" class="mx-auto" style="max-width: 600px;">
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="name">Nome</label>
+              <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group col-md-6">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Seu email" required>
+          </div>
+      </div>
+      <div class="form-group">
+          <label for="message">Mensagem</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Sua mensagem" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+  </form>
+</section>
+
+
+
+
+
+ <!-- Footer -->
+<footer class="py-3 bg-dark text-light text-center">
+  <p>&copy; <span id="year"></span> Elvet - Atendimento Veterinário a Domicílio. Todos os direitos reservados.</p>
+ 
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  // Atualiza o ano automaticamente no rodapé
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

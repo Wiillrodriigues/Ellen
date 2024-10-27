@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Elvet Pet</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #C5E3FF;">
+    <a class="navbar-brand" href="index.html">Elvet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre-Nós</a></li>
+        <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="depoimentos.html">Depoimentos</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Blog Section -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 style="color: #FF66C4;">Blog - Dicas de Saúde Animal</h2>
+      <p>Cuide melhor do seu pet com nossas dicas e informações exclusivas.</p>
+      <div class="row mt-4">
+        <!-- Post 1 -->
+        <div class="col-md-4 mb-4">
+          <img src="img/alimentos.webp" class="img-fluid rounded mb-3" alt="Dica de Alimentação Saudável">
+          <h4 style="color: #FF66C4;">Alimentação Saudável</h4>
+          <p>Descubra quais alimentos são ideais para a dieta do seu pet e mantenha-o saudável e forte.</p>
+          <button class="btn btn-secondary mt-3" data-toggle="modal" data-target="#modalAlimentacao">Leia Mais</button>
+        </div>
+
+        <!-- Modal Alimentação Saudável -->
+        <div class="modal fade" id="modalAlimentacao" tabindex="-1" aria-labelledby="modalAlimentacaoLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalAlimentacaoLabel">Alimentação Saudável</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Uma alimentação balanceada é essencial para a saúde do seu pet. Carnes magras, como frango e peru, oferecem proteínas de alta qualidade. Legumes como cenoura e abobrinha são ótimas fontes de fibras e vitaminas, enquanto frutas como maçã e banana, em pequenos detalhes , traga nutrientes essenciais.</p>
+              </div>
+              <!-- <div class="modal-footer">
+                <a href="post-alimentacao.html" class="btn btn-primary">Fechar</a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="col-md-4 mb-4">
+          <img src="img/dog-agua.webp" class="img-fluid rounded mb-3" alt="Dica de Cuidados no Verão">
+          <h4 style="color: #FF66C4;">Cuidados no Verão</h4>
+          <p>Veja como proteger seu pet do calor e mantê-lo confortável durante o verão.</p>
+          <button class="btn btn-secondary mt-3" data-toggle="modal" data-target="#modalVerao">Leia Mais</button>
+        </div>
+
+        <!-- Modal Cuidados no Verão -->
+        <div class="modal fade" id="modalVerao" tabindex="-1" aria-labelledby="modalVeraoLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalVeraoLabel">Cuidados no Verão</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Nos dias quentes de verão, é essencial cuidar do bem-estar do seu pet. Certifique-se de mantê-lo hidratado, oferecendo água fresca com frequência, e evite passeios durante os horários de sol intenso. Além disso, crie espaços sombreados e afrescos para que ele possa descansar com conforto.</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="col-md-4 mb-4">
+          <img src="img/dog-atividade.webp" class="img-fluid rounded mb-3" alt="Exercícios e Brincadeiras">
+          <h4 style="color: #FF66C4;">Exercícios e Brincadeiras</h4>
+          <p>Ideias de atividades para manter seu pet ativo, saudável e feliz.</p>
+          <button class="btn btn-secondary mt-3" data-toggle="modal" data-target="#modalExercicios">Leia Mais</button>
+        </div>
+
+        <!-- Modal Exercícios e Brincadeiras -->
+        <div class="modal fade" id="modalExercicios" tabindex="-1" aria-labelledby="modalExerciciosLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalExerciciosLabel">Exercícios e Brincadeiras</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Manter seu pet ativo é essencial para sua saúde e felicidade. Descubra atividades simples e divertidas, como caminhadas, brincadeiras com bolinhas e até desafios com petiscos, que vão garantir mais energia e bem-estar para o seu companheiro.</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="col-md-4 mb-4">
+          <img src="img/dog-dente.webp" class="img-fluid rounded mb-3" alt="Cuidados com a Saúde Bucal">
+          <h4 style="color: #FF66C4;">Cuidados com a Saúde Bucal</h4>
+          <p>Dicas para manter a higiene bucal do seu pet e prevenir problemas dentários.</p>
+          <button class="btn btn-secondary mt-3" data-toggle="modal" data-target="#modalSaudeBucal">Leia Mais</button>
+        </div>
+
+        <!-- Modal Cuidados com a Saúde Bucal -->
+        <div class="modal fade" id="modalSaudeBucal" tabindex="-1" aria-labelledby="modalSaudeBucalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalSaudeBucalLabel">Cuidados com a Saúde Bucal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Cuidar da higiene bucal do seu pet é fundamental para evitar problemas dentários e garantir sua saúde. Escovações regulares, brinquedos específicos para mastigação e visitas ao veterinário ajudam a prevenir o acúmulo de tártaro e doenças gengivais.</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+ <!-- Novo Card: Alimentos Proibidos para Animais -->
+ <!-- <div class="col-md-4 mb-4">
+  <img src="img/alimentos-proibidos.webp" class="img-fluid rounded mb-3" alt="Alimentos Proibidos para Animais">
+  <h4 style="color: #FF66C4;">Alimentos Proibidos para Animais</h4>
+  <p>Conheça os alimentos que podem ser prejudiciais para o seu pet e proteja-o de problemas de saúde.</p>
+  <button class="btn btn-secondary mt-3" data-toggle="modal" data-target="#modalAlimentosProibidos">Leia Mais</button>
+</div> -->
+
+<!-- Modal Alimentos Proibidos -->
+<!-- <div class="modal fade" id="modalAlimentosProibidos" tabindex="-1" aria-labelledby="modalAlimentosProibidosLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalAlimentosProibidosLabel">Alimentos Proibidos para Animais</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Certos alimentos, como chocolate e cebola, podem causar sérios problemas de saúde para os pets. Neste post, descubra quais alimentos evitar e como proteger seu amigo peludo.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="post-alimentos-proibidos.html" class="btn btn-primary">Ir para o Post Completo</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- Novo Card: Importância do Banho e Tosa -->
+<div class="col-md-4 mb-4">
+  <img src="img/banhoetosa.webp" class="img-fluid rounded mb-3" alt="Importância do Banho e Tosa">
+  <h4 style="color: #FF66C4;">Importância do Banho e Tosa</h4>
+  <p>Manter a higiene do seu pet em dia é essencial para sua saúde e bem-estar.</p>
+  <button class="btn btn-secondary mt-3" data-toggle="modal" data-target="#modalBanhoTosa">Leia Mais</button>
+</div>
+
+<!-- Modal Banho e Tosa -->
+<div class="modal fade" id="modalBanhoTosa" tabindex="-1" aria-labelledby="modalBanhoTosaLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalBanhoTosaLabel">Importância do Banho e Tosa</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Manter a higiene do seu pet em dia é fundamental para sua saúde e bem-estar. Banho e tosa regulares ajudam a evitar infecções, alergias e problemas de pele, proporcionando conforto e uma pelagem saudável.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Novo Card: Importância de Manter as Vacinas em Dia -->
+<div class="col-md-4 mb-4">
+  <img src="img/aplicando-vacina.webp" class="img-fluid rounded mb-3" alt="Importância das Vacinas">
+  <h4 style="color: #FF66C4;">Importância das Vacinas</h4>
+  <p>Vacinas em dia são essenciais para prevenir doenças graves no seu pet.</p>
+  <button class="btn btn-secondary mt-3" data-toggle="modal" data-target="#modalVacinasEmDia">Leia Mais</button>
+</div>
+
+<!-- Modal Vacinas em Dia -->
+<div class="modal fade" id="modalVacinasEmDia" tabindex="-1" aria-labelledby="modalVacinasEmDiaLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalVacinasEmDiaLabel">Importância das Vacinas em Dia</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Manter as vacinas do seu pet em dia é essencial para protegê-lo contra doenças graves e contagiosas. A vacinação regular fortalece o sistema imunológico, garantindo mais segurança e qualidade de vida ao seu companheiro.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark text-light text-center">
+    <p>&copy; <span id="year"></span> Elvet - Atendimento Veterinário a Domicílio. Todos os direitos reservados.</p>
+    <div>
+      <a href="https://www.facebook.com" target="_blank" class="text-light mx-2">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="text-light mx-2">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank" class="text-light mx-2">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank" class="text-light mx-2">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- JavaScript do Bootstrap e atualizador do ano -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Atualizar ano automaticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
